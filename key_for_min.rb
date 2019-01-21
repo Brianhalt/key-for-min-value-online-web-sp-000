@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
       current_value = name_value
       current_key = name_key
     else
-      binding.pry
+      # binding.pry
       if current_value > name_value
         current_value = name_value
         current_key = name_key
